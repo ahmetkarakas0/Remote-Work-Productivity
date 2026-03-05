@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <title>Remote Work Productivity</title>
+
+</head>
+<body>
+    <section>
+        <div class="bg-white text-center py-4">
+            <div class="container">
+                <h2 class="text-danger display-5 my-3">Remote Work Productivity</h2>
+            </div>
+        </div>
+        <div class="results d-none bg-white text-center py-4">
+            <div class="container lead">
+                <p><span class="text-center display-4 p-3">%0</span>Your remote work productivity</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="bg-secondary py-3">
+            <div class="container">
+                <form class="question-form text-white">
+                    <div class="my-4">
+                        <p>1.Im Working Office better ?</p>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q1y" name="q1" value="Y" >
+                            <label class="form-check-label" for="q1y">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q1n" name="q1" value="N"  >
+                            <label class="form-check-label" for="q1n">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <p>2.I wanna turn back to office ?</p>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q2y"  name="q2" value="Y" >
+                            <label class="form-check-label" for="q2y">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q2n" name="q2" value="N"  >
+                            <label class="form-check-label" for="q2n" >
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <p>3.Working on home generally more complex and compelling ?</p>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q3y" name="q3" value="Y"  >
+                            <label class="form-check-label" for="q3y">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q3n" name="q3" value="N">
+                            <label class="form-check-label" for="q3n" for="checkChecked">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <p>4.I find it difficult to complete my weekly tasks when I'm at home ?</p>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q4y" name="q4" value="Y" >
+                            <label class="form-check-label" for="q4y">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q4n" name="q4" value="N">
+                            <label class="form-check-label" for="q4n">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="my-4">
+                        <p>5.I have trouble concentrating when I'm at home ?</p>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q5y" name="q5" value="Y" >
+                            <label class="form-check-label" for="q5y">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input fake-checkbox" type="radio" id="q5n" name="q5" value="N">
+                            <label class="form-check-label" for="q5n">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="result">
+                        <p></p>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-light">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="remote.js"></script>
+</body>
+</html>
