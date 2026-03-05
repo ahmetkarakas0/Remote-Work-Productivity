@@ -19,5 +19,6 @@ form.addEventListener('submit',e => {
 
     results.classList.remove('d-none');
     form.reset();
+    window.scroll(0,0);
 
 })
